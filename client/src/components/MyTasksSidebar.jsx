@@ -38,6 +38,7 @@ function MyTasksSidebar() {
 
     useEffect(() => {
         fetchUserTasks()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentWorkspace])
 
     return (

@@ -31,6 +31,7 @@ const RecentActivity = () => {
 
     useEffect(() => {
         getTasksFromCurrentWorkspace();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentWorkspace]);
 
     return (
